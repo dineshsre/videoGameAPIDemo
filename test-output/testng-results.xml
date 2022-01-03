@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-02T19:54:26 GMT-08:00" name="Suite" finished-at="2022-01-02T19:54:32 GMT-08:00" duration-ms="6508">
+    <groups>
+    </groups>
+    <test started-at="2022-01-02T19:54:26 GMT-08:00" name="Test" finished-at="2022-01-02T19:54:32 GMT-08:00" duration-ms="6508">
+      <class name="com.VideoGameAPITest.VideoGameAPITest">
+        <test-method signature="getAllVideoGames_Get()[pri:1, instance:com.VideoGameAPITest.VideoGameAPITest@6c130c45]" started-at="2022-01-02T19:54:26 GMT-08:00" name="getAllVideoGames_Get" finished-at="2022-01-02T19:54:30 GMT-08:00" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllVideoGames_Get -->
+        <test-method signature="addVideoGame_Post()[pri:2, instance:com.VideoGameAPITest.VideoGameAPITest@6c130c45]" started-at="2022-01-02T19:54:30 GMT-08:00" name="addVideoGame_Post" finished-at="2022-01-02T19:54:31 GMT-08:00" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVideoGame_Post -->
+        <test-method signature="getVideoGame_Get()[pri:3, instance:com.VideoGameAPITest.VideoGameAPITest@6c130c45]" started-at="2022-01-02T19:54:31 GMT-08:00" name="getVideoGame_Get" finished-at="2022-01-02T19:54:32 GMT-08:00" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVideoGame_Get -->
+        <test-method signature="updateVideoGame_Put()[pri:4, instance:com.VideoGameAPITest.VideoGameAPITest@6c130c45]" started-at="2022-01-02T19:54:32 GMT-08:00" name="updateVideoGame_Put" finished-at="2022-01-02T19:54:32 GMT-08:00" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateVideoGame_Put -->
+        <test-method signature="deleteVideoGame_delete()[pri:5, instance:com.VideoGameAPITest.VideoGameAPITest@6c130c45]" started-at="2022-01-02T19:54:32 GMT-08:00" name="deleteVideoGame_delete" finished-at="2022-01-02T19:54:32 GMT-08:00" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteVideoGame_delete -->
+      </class> <!-- com.VideoGameAPITest.VideoGameAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11078" started-at="2022-01-02T20:12:22 PST" finished-at="2022-01-02T20:12:33 PST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11078" started-at="2022-01-02T20:12:22 PST" finished-at="2022-01-02T20:12:33 PST">
+      <class name="com.VideoGameAPITest.VideoGameAPITest">
+        <test-method status="PASS" signature="getAllVideoGames_Get()[pri:1, instance:com.VideoGameAPITest.VideoGameAPITest@4f970963]" name="getAllVideoGames_Get" duration-ms="6300" started-at="2022-01-02T20:12:22 PST" finished-at="2022-01-02T20:12:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllVideoGames_Get -->
+        <test-method status="PASS" signature="addVideoGame_Post()[pri:2, instance:com.VideoGameAPITest.VideoGameAPITest@4f970963]" name="addVideoGame_Post" duration-ms="1530" started-at="2022-01-02T20:12:28 PST" finished-at="2022-01-02T20:12:30 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVideoGame_Post -->
+        <test-method status="PASS" signature="getVideoGame_Get()[pri:3, instance:com.VideoGameAPITest.VideoGameAPITest@4f970963]" name="getVideoGame_Get" duration-ms="2638" started-at="2022-01-02T20:12:30 PST" finished-at="2022-01-02T20:12:32 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVideoGame_Get -->
+        <test-method status="PASS" signature="updateVideoGame_Put()[pri:4, instance:com.VideoGameAPITest.VideoGameAPITest@4f970963]" name="updateVideoGame_Put" duration-ms="254" started-at="2022-01-02T20:12:32 PST" finished-at="2022-01-02T20:12:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateVideoGame_Put -->
+        <test-method status="PASS" signature="deleteVideoGame_delete()[pri:5, instance:com.VideoGameAPITest.VideoGameAPITest@4f970963]" name="deleteVideoGame_delete" duration-ms="79" started-at="2022-01-02T20:12:33 PST" finished-at="2022-01-02T20:12:33 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteVideoGame_delete -->
+      </class> <!-- com.VideoGameAPITest.VideoGameAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
