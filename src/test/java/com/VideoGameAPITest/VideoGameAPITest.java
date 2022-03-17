@@ -1,12 +1,10 @@
 package com.VideoGameAPITest;
 
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import java.util.HashMap;
-import static org.hamcrest.core.IsEqual.*;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.core.IsEqual.equalTo;
 
-import org.apache.groovy.json.internal.JsonStringDecoder;
-import org.json.simple.JSONObject;
+import java.util.HashMap;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -47,6 +45,7 @@ public class VideoGameAPITest {
 			.log().body()
 			.extract().response();
 		
+		
 		String jsonString = response.asString();
 		Assert.assertEquals(jsonString.contains("Record Added Successfully"),true);
 		
@@ -62,12 +61,12 @@ public class VideoGameAPITest {
 			.log().body()
 			.body("videoGame.id", equalTo("101"))
 			.body("videoGame.name", equalTo("Mahabharata"));
-		
+	
 	}
 	@Test(priority = 4)
 	public void updateVideoGame_Put() {
 		
-		HashMap data = new HashMap();		
+		HashMap<String,String> data = new HashMap<String,String>();		
 		data.put("id", "101");
 		data.put("name", "Geeta");
 		data.put("releaseDate", "2022-01-02T00:00:00-08:00");
